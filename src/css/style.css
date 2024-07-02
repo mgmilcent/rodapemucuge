@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rodape{
+    background-color: #7F4F24;
+    display: flex;
+    height: 62vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.rodape .titulorodape{
+    width: 5vw;
+    margin-right: 2vw;
+    color: #fff;
+    font-family: "Jolly Lodger", system-ui;
+    font-size: 50px;
+}
+
+.rodape .titulorodapedois{
+    color: #fff;
+}
+
+.rodape .nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape .nav .eventos{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .nav .eventos:hover{
+    transform: scale(1.1);
+}
+
+.rodape .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .redes .sociais{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .redes .sociais:hover{
+    transform: scale(1.1);
+}
